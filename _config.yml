@@ -1,0 +1,41 @@
+# Site settings
+title:          0XJAM
+description:    "I want to change the world."
+baseurl:        "/"
+url:            "https://0xJam.github.io"
+
+# Google Analytics
+google_analytics: UA-152689950-1
+
+# Author
+author:
+  name:         Jimin Son
+  url:          https://0x20.me
+  email:        bonolife_@naver.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Disqus (Set to your disqus id)
+disqus:         jekyll-tale
