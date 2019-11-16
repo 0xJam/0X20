@@ -17,7 +17,7 @@
 
   &-time {
     color: $default-tint;
-    font-family: $serif-secondary;
+    font-family: $sans-serif;
     letter-spacing: .5px;
   }
 
@@ -32,7 +32,7 @@
 
   &-line {
     @include transition(all .3s ease-out);
-    border-top: .2rem solid $default-shade;
+    border-top: .2rem solid $default-line;
     display: block;
     width: 2rem;
   }
